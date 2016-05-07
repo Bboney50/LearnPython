@@ -8,7 +8,6 @@ from graphics import *
 
 def main():
     win = GraphWin()
-    #shape = Squares(Point(50,50),20)
     shape = Circle(Point(50,50),20)
     shape.setOutline("red")
     shape.setFill("red")
